@@ -22,7 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+require 'get_pronunciation'
+
+# shorten download
+GetP.download(word: 'very')
+
+# repeat
+GetP.download(word: 'very', repeat: 100)
+
+# specified output directory
+GetP.download(word: 'very', output_dir: '/hoge/foor/')
+```
 
 ## Development
 
