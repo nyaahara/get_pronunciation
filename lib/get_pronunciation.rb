@@ -2,6 +2,7 @@ require "get_pronunciation/version"
 require "cli"
 require 'nokogiri'
 require 'open-uri'
+require 'net/http'
 
 module GetPronunciation
   def self.download(word:, repeat: 1, output_dir: './', prefix: '', suffix: '')
