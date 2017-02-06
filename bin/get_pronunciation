@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'get_pronunciation'
+
+CLI.start

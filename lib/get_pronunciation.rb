@@ -1,4 +1,6 @@
 require "get_pronunciation/version"
+require "cli"
+require 'nokogiri'
 require 'open-uri'
 
 module GetPronunciation
