@@ -15,12 +15,19 @@ install it yourself as:
 
 ```
 bundle exec bin/get_pronunciation help uk
+bundle exec bin/get_pronunciation help us
 ```
 
 #### download uk file
 
 ```
 bundle exec bin/get_pronunciation uk --word=very --repeat=100
+```
+
+#### download us file
+
+```
+bundle exec bin/get_pronunciation us --word=very --repeat=100
 ```
 
 ## License
